@@ -20,4 +20,4 @@ http://detailskip.taobao.com/json/ifq.htm?&id=16285405705&sid=126821020&sbn=28a2
 videoId 
 
 http://v.youku.com/QVideo/~ajax/getVideoPlayInfo?id=167233682&type=vv
-http://comments.youku.com/comments/~ajax/getStatus.html?__ap={%22videoid%22:%22167233682%22}
+http://comments.youku.com/comments/~ajax/getStatus.html?__ap={"videoid":"167233682"}
