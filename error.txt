@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\workspace\GitHub\TYSpider\TYSpider.py", line 125, in <module>
+    print name, nowtime, viewcount, total, ding, cai
+IOError: [Errno 9] Bad file descriptor
