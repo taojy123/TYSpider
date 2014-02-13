@@ -110,8 +110,8 @@ while True:
             if "youku" in url[:20]:
                 p = get_page(url)
                 
-                ding = re.findall(r'"upVideoTimes">(.*?)</em>', p)[0]
-                cai = re.findall(r'"downVideoTimes">(.*?)</em>', p)[0]
+                ding = re.findall(r'"upVideoTimes">(.*?)</em>', p)[0].replace(",", "")
+                cai = re.findall(r'"downVideoTimes">(.*?)</em>', p)[0].replace(",", "")
                 
                 vid = re.findall(r"var videoId = '(.*?)';", p)[0]
                 link = "http://v.youku.com/QVideo/~ajax/getVideoPlayInfo?id=%s&type=vv"%vid
